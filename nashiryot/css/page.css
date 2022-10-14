@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.bd-subnavbar {
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
+a{
+    text-decoration: none;
+}
+.header-bg {
+    position: relative;
+    height: 15vh;
+    width: 100%;
+    background: url(../../img/forhire.jpg);
+    background-color: red;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-owerflov {
+    width: 100%;
+    height: 15vh;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.header-bg-text {
+    z-index: 1000;
+}
+
+.menu-top-w {
+    width: 80%;
+}
+
+.menu-top-form input {
+    outline: none !important;
+}
+
+.bi-globe {
+    font-size: 18px;
+}
+
+select,
+option {
+    outline: none !important;
+}
+
+.menu-bottom-w {
+    width: 80%;
+}
+
+.menu-bottom {
+    height: 50px;
+    line-height: 50px;
+}
+
+.menu-bottom ul li{
+    margin-left: 6.4%;
+    list-style: none;
+}
+
+.menu-bottom ul li a {
+    padding: 14px 14px 13px 14px;
+    color: #4b4b4b;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 550;
+    transition: all 0.7s;
+}
+
+.menu-bottom ul li a:hover {
+    background: #000;
+    color: #fff;
+}
+
+.p-70 {
+    padding: 70px 0;
+}
+
+.content-w {
+    width: 80%;
+}
+
+.card a {
+    text-decoration: none;
+    display: inline;
+    background-image: linear-gradient(to bottom, #686868 0%, #000000 100%);
+    background-size: 0 1.5px;
+    background-repeat: no-repeat;
+    background-position: left 100%;
+    transition: all 0.7s;
+}
+
+.card a:hover {
+    background-size: 100% 1.5px !important;
+}
+
+.text-decretion {
+    text-decoration: none;
+    display: inline;
+    background-image: linear-gradient(to bottom, #686868 0%, #000000 100%);
+    background-size: 0 1.5px;
+    background-repeat: no-repeat;
+    background-position: left 100%;
+    transition: all 0.7s;
+}
+
+.text-decretion:hover {
+    background-size: 100% 1.5px !important;
+}
+.col-center-img img{
+    width: 100%;
+    height: 400px !important;
+}
+
+.button-hover-col{
+    border-radius: 2px;
+    transition: all 0.7s;
+}
+.button-hover-col:hover{
+    background: #d5d5d5;
+}
+.button-hover-col a{
+    color: #4b4b4b;
+    transition: all 0.7s;
+}
+
+
+.scrollbar {
+    overflow-y: scroll;
+}
+.scrollbar {
+    width: 100%;
+    height: 90vh;
+    overflow-y: auto; /* Add the ability to scroll */
+  }
+  
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .scrollbar::-webkit-scrollbar {
+      display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }

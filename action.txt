@@ -1,0 +1,3 @@
+1. Fayl turgan joyga borib
+2. python manage.py runserver buyruq ishga tushurdi.
+3. Ctrl+C toxtatadi
